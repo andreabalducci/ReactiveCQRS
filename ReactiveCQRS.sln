@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kernel", "Kernel\Kernel.csproj", "{670361C6-3702-4E8D-B88D-4A8D5A8D24A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{7732EE9E-E0BB-4E3F-9D56-913565613816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{D86E98BB-8295-420F-97F5-1DEA4D6D28D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{670361C6-3702-4E8D-B88D-4A8D5A8D24A0}.Debug|x86.ActiveCfg = Debug|x86
+		{670361C6-3702-4E8D-B88D-4A8D5A8D24A0}.Debug|x86.Build.0 = Debug|x86
+		{670361C6-3702-4E8D-B88D-4A8D5A8D24A0}.Release|x86.ActiveCfg = Release|x86
+		{670361C6-3702-4E8D-B88D-4A8D5A8D24A0}.Release|x86.Build.0 = Release|x86
+		{7732EE9E-E0BB-4E3F-9D56-913565613816}.Debug|x86.ActiveCfg = Debug|x86
+		{7732EE9E-E0BB-4E3F-9D56-913565613816}.Debug|x86.Build.0 = Debug|x86
+		{7732EE9E-E0BB-4E3F-9D56-913565613816}.Release|x86.ActiveCfg = Release|x86
+		{7732EE9E-E0BB-4E3F-9D56-913565613816}.Release|x86.Build.0 = Release|x86
+		{D86E98BB-8295-420F-97F5-1DEA4D6D28D6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D86E98BB-8295-420F-97F5-1DEA4D6D28D6}.Debug|x86.Build.0 = Debug|Any CPU
+		{D86E98BB-8295-420F-97F5-1DEA4D6D28D6}.Release|x86.ActiveCfg = Release|Any CPU
+		{D86E98BB-8295-420F-97F5-1DEA4D6D28D6}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
