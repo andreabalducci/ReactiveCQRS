@@ -58,11 +58,15 @@
     <Reference Include="Akka.Serialization.Wire">
       <HintPath>..\packages\Akka.Serialization.Wire.1.0.7.18-beta\lib\net45\Akka.Serialization.Wire.dll</HintPath>
     </Reference>
+    <Reference Include="NEventStore">
+      <HintPath>..\packages\NEventStore.5.2.0\lib\net40\NEventStore.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Actors\CommandWorker.cs" />
+    <Compile Include="Domain\TicketAggregate.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -71,5 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Actors\" />
+    <Folder Include="Domain\" />
   </ItemGroup>
 </Project>
